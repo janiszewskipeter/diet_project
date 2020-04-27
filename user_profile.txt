@@ -1,0 +1,6 @@
+ID,Name, Weight, Height, BMI, Restrictions
+ddve90,John, 134, 176, 72, Vegan
+fkl78Q, Mario, 122, 165, 87, Vegetarian
+hgt423, Gustav, 98, 170, 67, ''
+ubk329, Sam, 152, 201, 78, LowFat
+mq820w, Mirek, 132, 186, 74, ''   
