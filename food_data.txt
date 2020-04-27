@@ -1,0 +1,3 @@
+banana, 3000
+orange, 4000
+
