@@ -12,7 +12,7 @@ def import_data(filename):
     with open(filename) as f:
         lines = f.readlines()
         for line in lines:
-            data.append(line)
+            data.append(line.strip().split(','))
 
     return = data
 
