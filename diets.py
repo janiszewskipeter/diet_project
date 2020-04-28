@@ -3,4 +3,4 @@ def get_bmi_report(height, weight, age):
     weight = int(weight)
     age = int(age)
     bmi_report = str(weight / (height * height))
-    return bmi_report  
+    return bmi_report
