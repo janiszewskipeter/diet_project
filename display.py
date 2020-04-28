@@ -11,8 +11,12 @@ def print_user_info(filename):
     HEIGHT_INDEX = 3
     BMI_INDEX = 4
 
-    print('User info: {} with BMI {}'.format(filename[NAME_INDEX], filename[BMI_INDEX]))
+    for row in filename:
+        print('User info: {} with BMI {}'.format(row[ID_INDEX], row[BMI_INDEX]))
 
+def display_numbered_list(data):
+    for item in data:
+        print(str(data.index(item))+' '+item)
 
 def print_result(message):
     vertical_spacing = 2
