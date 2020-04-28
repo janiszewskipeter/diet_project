@@ -1,6 +1,6 @@
 def print_program_menu(menu_commands):
     for option in menu_commands:
-        print(str(menu_commands.index(option)) + option)
+        print(str(menu_commands.index(option))+ " " + option)
 
 
 def print_user_info():

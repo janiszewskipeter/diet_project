@@ -43,10 +43,10 @@ def user_menu_input():
     WORKOUT_PROPOSAL = '4'
     END_PRIOGRAM = '5'
 
-    data = file_handling.import_data(filename='xxxxx.txt')
+    data = file_handling.import_data(filename='user_profile.txt')
     user_input = get_user_input(FIRST_MENU_QUESTION)
 
-    
+
     if user_input == USER_INFO:
         display.print_user_info()
     elif user_input == BMI_CALC:
@@ -54,7 +54,7 @@ def user_menu_input():
         weight = get_user_input(BMI_WEIGHT)
         age = get_user_input(BMI_AGE)
         bmi_raport = diets.get_bmi_report(height, weight, age)
-        display.print_result(bmi_raport)
+        display.print_result("Your BMI is: " + bmi_raport)
     elif user_input == DIET_PROPOSAL:
         pass
     elif user_input == DIET_RESTRICTIONS:
