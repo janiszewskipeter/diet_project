@@ -14,7 +14,8 @@ def import_data(filename):
         for line in lines:
             data.append(line.strip().split(','))
 
-    return = data
+    return data
+
 
 def data_export(filename, data):
     '''
