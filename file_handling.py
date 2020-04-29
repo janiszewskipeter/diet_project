@@ -29,6 +29,4 @@ def data_export(filename, data):
 
     with open(filename, 'w') as f:
         for line in data:
-            f.write(line)
-
-
+            f.write(','.join(line) + '\r\n')

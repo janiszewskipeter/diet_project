@@ -1,6 +1,6 @@
-ID, Name, Calories, Restrictions
-726dbj, Vegan, 1456, Vegan, Vegetarian, LowFat
-ndkw23, Vegetarian, 1342, Vegetarian, LowFat 
-sdq345, Low Fat, 1225, LowFat 
-uek937, Paleo Diet, 1876, ''
-hg92k1, Mediterranean Diet, 1763, ''
+ID, Name,Calories,Restrictions
+726dbj,Vegan,1456,Vegan,Vegetarian,LowFat
+ndkw23,Vegetarian,1342,Vegetarian,LowFat 
+sdq345,Low Fat,1225,LowFat 
+uek937,Paleo Diet,1876,''
+hg92k1,Mediterranean Diet,1763,''
